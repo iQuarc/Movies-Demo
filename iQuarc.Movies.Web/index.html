@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+	<body>
+		<div class="row" ng-app="app">
+			<div class="col-md-12">
+				<h2>iQuarc Movies</h2>
+			</div>
+			
+			<div ng-view></div>
+
+		</div>
+		
+	
+		<script src="Scripts/jquery-2.1.1.js"></script>
+		<script src="Scripts/bootstrap.js"></script>
+		<script src="Scripts/respond.js"></script>
+
+		<script src="Scripts/angular.js"></script>
+		<script src="Scripts/angular-route.js"></script>
+
+		<script src="App/extensions/array-extensions.js"></script>
+		
+		<script src="App/services/common-services.js"></script>
+		<script src="App/services/event-aggregator.js"></script>
+		<script src="App/services/promise-service.js"></script>
+
+		<script src="App/app.js"></script>
+
+		<script src="App/controllers/home-controller.js"></script>
+		<script src="App/controllers/movie-controller.js"></script>
+	</body>
+</html>

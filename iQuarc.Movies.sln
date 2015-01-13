@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iQuarc.Movies.Contracts", "iQuarc.Movies.Contracts\iQuarc.Movies.Contracts.csproj", "{11E046D7-ECF9-4D21-A0BF-1A28D49C296A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iQuarc.Movies.Services", "iQuarc.Movies.Services\iQuarc.Movies.Services.csproj", "{7FE5FAEC-BA1C-4D25-9CC0-A3F0A3A7E468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iQuarc.DataAccess", "iQuarc.DataAccess\iQuarc.DataAccess.csproj", "{10703DD4-86C8-4CA1-89E0-B349BD04F6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iQuarc.Movies.Model", "iQuarc.Movies.Model\iQuarc.Movies.Model.csproj", "{33EDBBED-5F93-4CC0-8177-5AE3CEE38FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iQuarc.Movies.Web", "iQuarc.Movies.Web\iQuarc.Movies.Web.csproj", "{EACBFE26-588C-4347-BA54-A64A026A391F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iQuarc.DataAccess.DocumentDb", "iQuarc.DataAccess.DocumentDb\iQuarc.DataAccess.DocumentDb.csproj", "{C44F0063-569D-468B-A86B-2B6033BCE4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iQuarc.Configuration", "iQuarc.Configuration\iQuarc.Configuration.csproj", "{27986234-7443-471D-B456-75381D1777AA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://crissianx.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = iQuarc.DataAccess\\iQuarc.DataAccess.csproj
+		SccProjectName1 = iQuarc.DataAccess
+		SccLocalPath1 = iQuarc.DataAccess
+		SccProjectUniqueName2 = iQuarc.Movies.Contracts\\iQuarc.Movies.Contracts.csproj
+		SccProjectName2 = iQuarc.Movies.Contracts
+		SccLocalPath2 = iQuarc.Movies.Contracts
+		SccProjectUniqueName3 = iQuarc.Movies.Model\\iQuarc.Movies.Model.csproj
+		SccProjectName3 = iQuarc.Movies.Model
+		SccLocalPath3 = iQuarc.Movies.Model
+		SccProjectUniqueName4 = iQuarc.Movies.Services\\iQuarc.Movies.Services.csproj
+		SccProjectName4 = iQuarc.Movies.Services
+		SccLocalPath4 = iQuarc.Movies.Services
+		SccProjectUniqueName5 = iQuarc.Movies.Web\\iQuarc.Movies.Web.csproj
+		SccProjectName5 = iQuarc.Movies.Web
+		SccLocalPath5 = iQuarc.Movies.Web
+		SccProjectUniqueName6 = iQuarc.DataAccess.DocumentDb\\iQuarc.DataAccess.DocumentDb.csproj
+		SccProjectName6 = iQuarc.DataAccess.DocumentDb
+		SccLocalPath6 = iQuarc.DataAccess.DocumentDb
+		SccProjectUniqueName7 = iQuarc.Configuration\\iQuarc.Configuration.csproj
+		SccProjectName7 = iQuarc.Configuration
+		SccLocalPath7 = iQuarc.Configuration
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E046D7-ECF9-4D21-A0BF-1A28D49C296A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E046D7-ECF9-4D21-A0BF-1A28D49C296A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E046D7-ECF9-4D21-A0BF-1A28D49C296A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E046D7-ECF9-4D21-A0BF-1A28D49C296A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE5FAEC-BA1C-4D25-9CC0-A3F0A3A7E468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE5FAEC-BA1C-4D25-9CC0-A3F0A3A7E468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE5FAEC-BA1C-4D25-9CC0-A3F0A3A7E468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE5FAEC-BA1C-4D25-9CC0-A3F0A3A7E468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10703DD4-86C8-4CA1-89E0-B349BD04F6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10703DD4-86C8-4CA1-89E0-B349BD04F6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10703DD4-86C8-4CA1-89E0-B349BD04F6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10703DD4-86C8-4CA1-89E0-B349BD04F6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EDBBED-5F93-4CC0-8177-5AE3CEE38FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EDBBED-5F93-4CC0-8177-5AE3CEE38FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EDBBED-5F93-4CC0-8177-5AE3CEE38FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EDBBED-5F93-4CC0-8177-5AE3CEE38FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACBFE26-588C-4347-BA54-A64A026A391F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACBFE26-588C-4347-BA54-A64A026A391F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACBFE26-588C-4347-BA54-A64A026A391F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACBFE26-588C-4347-BA54-A64A026A391F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44F0063-569D-468B-A86B-2B6033BCE4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44F0063-569D-468B-A86B-2B6033BCE4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44F0063-569D-468B-A86B-2B6033BCE4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44F0063-569D-468B-A86B-2B6033BCE4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27986234-7443-471D-B456-75381D1777AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27986234-7443-471D-B456-75381D1777AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27986234-7443-471D-B456-75381D1777AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27986234-7443-471D-B456-75381D1777AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿<div class="row" ng-controller="homeController">
+	<ul class="latest-movies">
+		<li ng-repeat="movie in movies">
+			<a href="#/movies/{{ movie.id }}">{{ movie.name }}</a>
+		</li>
+	</ul>
+</div>
